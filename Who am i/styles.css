@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff6bda, #4ecdc4);
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333; /* Adjust text color for better visibility */
+}
+
+button {
+    background-color:  #4ecdc4; /* Matching button color */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:  #4ecdc4;
+}
+
+/* Rest of the styles remain the same */
+
+
+textarea {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+    resize: vertical;
+}
+
+#questionCount {
+    color: #aaa;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Add more custom styles for individual questions/cards */
